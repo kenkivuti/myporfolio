@@ -1,0 +1,99 @@
+body{
+  background-color: #000046;
+}
+
+.card1{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    margin: 84px 0;
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color: darkblue;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #040460);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 10px;
+}
+.txt1{
+    color: whitesmoke;
+}
+button{
+    
+      align-items: center;
+      background-image: linear-gradient(144deg,#00DDEB, #5B42F3  ,#11114f 50%);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: Phantomsans, sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      padding: 3px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .button-64:active,
+    .button-64:hover {
+      outline: 0;
+    }
+    
+    .button-64 span {
+      background-color: rgb(5, 6, 45);
+      padding: 16px 24px;
+      border-radius: 6px;
+      width: 100%;
+      height: 100%;
+      transition: 300ms;
+    }
+    
+    .button-64:hover span {
+      background: none;
+    }
+    
+    @media (min-width: 768px) {
+      .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+      }
+    }
+    img{
+      position: absolute;
+      left: 2%;
+      top: 4%;
+        border-radius: 20%;
+        width: 15%;
+        height: 180px;
+    }
+    p{
+        position: absolute;
+        left: 20%;
+        top: 19%;
+    }
+    .mybtn{
+        position: absolute;
+        left: 20%;
+        top: 76%;
+        text-decoration: none;
+
+    }
+    .mybtn a{
+      text-decoration: none;
+    }
+    .txt1 h1{
+      position: absolute;
+      font-size: 190%;
+      left: 20%;
+      top: -8%;
+    }
+ 
